@@ -4,7 +4,7 @@ var keythereum = require("keythereum");
 // keypair
 const wallet = Wallet.generate();
  
-// privKey
+// privateKey
 const privateKey = wallet.getPrivateKey();
 console.log("privateKey:", privateKey);
 
