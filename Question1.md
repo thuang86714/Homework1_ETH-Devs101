@@ -8,4 +8,5 @@ Non cryptographic hash functions just try to avoid collisions for non malicious 
 In exchange for weaker guarantees they are typically (much) faster.
 
 I'd still call MD5 a cryptographic hash function, since it aimed to provide security. But it's broken, and thus no longer usable as a cryptographic hash. On the other hand when you have a non cryptographic hash function, you can't really call it "broken", since it never tried to be secure in the first place.
-resource: Stackexchange-What is the difference between a Hash Function and a Cryptographic Hash Function?
+
+source: Stackexchange-What is the difference between a Hash Function and a Cryptographic Hash Function?
